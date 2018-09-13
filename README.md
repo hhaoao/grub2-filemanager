@@ -35,8 +35,8 @@ chainloader (0xff)
 ### GRUB 2
 ```
 if [ "${grub_platform}" = "pc" ]; then
-  set cfgfile="find --set-root /grubfm.iso;map --mem /grubfm.iso (0xff);map --hook;chainloader (0xff);boot"
-  linux /grub.exe --config-file=$cfgfile
+  linux /loadfm  
+  initrd /grubfm.iso  
 else
   chainloader /grubfm.efi
 fi
