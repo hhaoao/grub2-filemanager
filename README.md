@@ -18,9 +18,9 @@
 ```shell
 git clone https://github.com/a1ive/grub2-filemanager.git
 cd grub2-filemanager
-wget -O legacy/ntboot/NTBOOT.MOD/NTBOOT.NT6 https://github.com/a1ive/grub2-filemanager/raw/gh-pages/NTBOOT.NT6
-wget -O legacy/ntboot/NTBOOT.MOD/NTBOOT.PE1 https://github.com/a1ive/grub2-filemanager/raw/gh-pages/NTBOOT.PE1
-wget -O legacy/wimboot https://github.com/a1ive/grub2-filemanager/raw/gh-pages/wimboot
+wget -O legacy/ntboot/NTBOOT.MOD/NTBOOT.NT6 https://github.com/a1ive/grub2-filemanager/raw/binfiles/NTBOOT.NT6
+wget -O legacy/ntboot/NTBOOT.MOD/NTBOOT.PE1 https://github.com/a1ive/grub2-filemanager/raw/binfiles/NTBOOT.PE1
+wget -O legacy/wimboot https://github.com/a1ive/grub2-filemanager/raw/binfiles/wimboot
 ./build.sh
 ```
 
